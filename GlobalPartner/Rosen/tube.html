@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>TAMUTOM</title>
+    <meta content="" name="description">
+
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+
+
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        @media only screen and (max-width:1280px) {
+            .navbar {
+                margin-left: 0px !important;
+            }
+
+            * {
+                overflow-x: hidden;
+            }
+
+        }
+
+        .heading {
+            font-size: 70px;
+            line-height: 1.35em;
+            text-align: center;
+            font-family: Poppins;
+            font-weight: 600;
+            overflow: hidden !important;
+            color: #003862;
+
+        }
+
+        #header {
+            background-color: #fff;
+
+        }
+
+        .navbar {
+            margin-left: 100px;
+        }
+
+
+        .nut {
+            background-image: url('../../img/ice\ back.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px;
+            margin-left: 20%;
+            margin-top: 20px;
+        }
+
+        .ram {
+            background-color: #003862;
+            display: none;
+        }
+
+        .nutp {
+
+
+            margin-left: 20%;
+            margin-top: 20px;
+        }
+
+        @media only screen and (max-width:800px) {
+            .nut {
+                margin-left: 0px !important;
+            }
+
+
+
+            .ram {
+
+                display: block !important;
+            }
+
+            .reputation {
+                margin-left: 0px !important;
+
+            }
+
+
+
+            .nutp {
+
+
+                margin-left: 0%;
+                margin-top: 0px;
+            }
+
+
+        }
+
+        .carousel-control-prev-icon {
+
+
+
+
+            margin-left: -200px !important;
+            margin-bottom: 100px !important;
+
+        }
+
+        .carousel-control-next-icon {
+
+            margin-left: 200px !important;
+            margin-bottom: 100px !important;
+
+        }
+
+        .carousel-control-next-icon:after {
+            content: '>';
+            font-size: 40px;
+            color: #000 !important;
+        }
+
+        .carousel-control-prev-icon:after {
+            content: '<';
+            font-size: 40px;
+
+            color: #000 !important;
+        }
+
+        .funt {
+            display: none !important;
+
+        }
+
+
+
+
+
+
+        @media only screen and (max-width:800px) {
+
+            .navbar {
+                margin-left: 0px !important;
+            }
+
+            .fink {
+                display: none !important;
+            }
+
+            .funt {
+                display: block !important;
+
+            }
+
+        }
+    </style>
+    <script type="text/javascript">
+
+        function hover(element) {
+            element.setAttribute('src', '../../img/tube machine/image 1.2.webp');
+        }
+
+        function unhover(element) {
+            element.setAttribute('src', '../../img/tube machine/image 1.1.webp');
+        }
+
+
+        function hover2(element) {
+            element.setAttribute('src', '../../img/tube machine/image 2.2.webp');
+        }
+
+        function unhover2(element) {
+            element.setAttribute('src', '../../img/tube machine/image 2.1.webp');
+        }
+
+        function hover3(element) {
+            element.setAttribute('src', '../../img/tube machine/image 3.2.webp');
+        }
+
+        function unhover3(element) {
+            element.setAttribute('src', '../../img/tube machine/image 3.1.webp');
+        }
+        function hover4(element) {
+            element.setAttribute('src', '../../img/tube machine/image 4.2.webp');
+        }
+
+        function unhover4(element) {
+            element.setAttribute('src', '../../img/tube machine/image 4.1.webp');
+        }
+
+    </script>
+
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="../../img/partner logo/tamutom.webp" alt="">
+                <!-- <span>TAMUTOM</span> -->
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="tube.html#hero">HOME</a></li>
+                    <!-- <li><a class="nav-link scrollto active" href="#about">ABOUT</a></li> -->
+                    <li><a class="nav-link scrollto" href="tube.html#product">PRODUCTS</a></li>
+                    
+                    
+                    
+                    <li><a class="nav-link scrollto active" href="tube.html#contact">CONTACT</a></li>
+
+                </ul>
+                <button class="btn btn-light ram" style="background-color: #0d3861;" data-toggle="modal"
+                    data-target="#exampleModal">
+                    <i class="fa fa-bars" aria-hidden="true" style="color:#fff;"></i>
+                </button>
+
+            </nav>
+            <!-- .navbar -->
+
+
+
+
+        </div>
+    </header><!-- End Header -->
+    <br>
+    <br>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden=" true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: #0d3861;">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">na</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul style="font-size: 20px; font-family: poppins; list-style-type:none !important; ">
+                        <li><a style="text-decoration: none; color:#fff;" class=" nav-link scrollto active"
+                                href="tube.html#hero">HOME</a>
+                        </li>
+                        <!-- <li><a class="nav-link scrollto active" href="#about">ABOUT</a></li> -->
+                        <li><a style="text-decoration: none; color: #fff;" class="nav-link scrollto"
+                                href="tube.html#product">PRODUCTS</a>
+                        </li>
+                      
+                        <li><a style="text-decoration: none; color:#fff;" class="nav-link scrollto active"
+                                href="tube.html#contact">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <br>
+    <br>
+    <div class="container-fluid funt">
+        <video autoplay muted loop playsinline preload="metadata" style="height:100%; width: 100%;">
+            <source src="assets/vid/tube.mp4" type="video/mp4">
+        </video>
+
+
+
+        <p style="font-size: 50px;
+        line-height: 1.35em;
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 600;
+        color: #003862;">
+            Tube Ice Machine
+        </p>
+        <span style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+        text-align: center;
+        font-family: Poppins; ">&nbsp;</span>
+        <dpan style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+        text-align: center;
+        font-family: Poppins; ">
+            Tamutom has a perfect solution for Tube Ice Production.
+        </dpan>
+
+
+
+    </div>
+    <section class="container fink" style="height:600px;" id="hero">
+        <div class="video-wrapper">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <video autoplay muted loop playsinline preload="metadata" style="height: 600px;">
+                        <source src="assets/vid/tube.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+                <div class="col-md-5 col-sm-12 text-center">
+
+                    <p class="heading">
+                        Tube Ice Machine
+                    </p>
+                    <span style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+                    text-align: center;
+                    font-family: Poppins; ">&nbsp;</span>
+                    <dpan style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+                    text-align: center;
+                    font-family: Poppins; ">
+                        Tamutom has a perfect solution for Tube Ice Production.
+                    </dpan>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <br>
+    <br>
+    <div class="container-fluid" style="background-color:#003862;">
+        <center>
+            <text style="font-size: 42px; font-family: poppins; color:#fff;">
+                A tube ice machine is an ideal machine for those who
+                <br> want to make ice business for cafe, bar,<br>
+                restaurant, hotels.
+            </text>
+        </center>
+    </div>
+    <div class="row">
+
+        <div class="col-md-7 col-sm-12 nut">
+            <span style="color: #fff; font-size:35px; font-family: poppins; ">
+                Tamutom Tube Ice Machine works full automatically.
+                The smallest capacity is 3 ton and
+                the biggest capacity is 20 Ton/day.
+            </span>
+
+        </div>
+        <br>
+        <div class="col-md-6 col-sm-12 nutp">
+            <img src="../../img/fac.webp" height="100%" width="100%">
+
+
+
+
+        </div>
+        <div class="col-md-6 col-sm-12 reputation" style="margin-left: 25%;">
+            <span style=" font-family: poppins; font-size: 20px; color:#003862; font-weight: 600;">
+                We combine tube ice machines with packing units.
+            </span>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="container text-center" id="product">
+        <h1>
+            PRODUCTS
+        </h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-md-3 col-sm-3 pic 1">
+
+                            <img src="../../img/tube machine/image 1.1.webp" class="d-block w-100" alt="error"
+                                height="200px" onmouseover="hover(this); " onmouseout="unhover(this);" />
+                            <span class="text-center" style="color: #003862; font-size: 15px;  text-align: center;
+                            font-family: Poppins; font-weight: 600; ">Tube Ice Machine 3 Ton /day</span>
+                            <div class="conatiner-fluid text-center">
+                                <text
+                                    style="color: #003862;  font-family: Poppins; font-size: 10px; font-weight: 600;">$0.00</text>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 pic 2">
+
+
+                            <img src="../../img/tube machine/image 2.1.webp" class="d-block w-100" alt="error"
+                                height="200px" onmouseover="hover2(this); " onmouseout="unhover2(this);" />
+
+                            <span class="text-center" style="color: #003862; font-size: 15px;   text-align: center;
+                            font-family: Poppins; font-weight: 600;">Tube Ice Machine 5 Ton /day</span>
+                            <div class="conatiner-fluid text-center">
+                                <text
+                                    style="color: #003862;  font-family: Poppins; font-size: 10px; font-weight: 600;">$0.00</text>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+
+
+                            <img src="../../img/tube machine/image 3.1.webp" class="d-block w-100" alt="error"
+                                height="200px" onmouseover="hover3(this); " onmouseout="unhover3(this);">
+                            <span class="text-center" style="color: #003862; font-size: 15px;   text-align: center;
+                            font-family: Poppins; font-weight: 600;">Tube Ice Machine 10 Ton /day</span>
+                            <div class="conatiner-fluid text-center">
+                                <text
+                                    style="color: #003862;  font-family: Poppins; font-size: 10px; font-weight: 600;">$0.00</text>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+
+
+                            <img src="../../img/tube machine/image 4.1.webp" class="d-block w-100" alt="error"
+                                height="200px" onmouseover="hover4(this); " onmouseout="unhover4(this);">
+                            <span class="text-center" style="color: #003862; font-size: 15px; text-align: center;
+                            font-family: Poppins; font-weight: 600; ">Tube Ice Machine 20 Ton /day
+                            </span>
+                            <div class="conatiner-fluid text-center">
+                                <text
+                                    style="color: #003862;  font-family: Poppins; font-size: 10px; font-weight: 600;">$0.00</text>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class=" carousel-control-prev " type="button" data-bs-target="#carouselExampleFade"
+                    style="display: none;" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    style="display: none;" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+
+
+    <footer>
+        <div class="footer" style="background-color: rgb(13, 56, 97);">
+          <div class="container">
+            <br>
+            <h1 id="contact" style="text-align: center;" data-aos="fade-up" data-aos-easing="ease-in-out"
+              data-aos-offset="100">
+              CONTACT WITH US</h1>
+    
+            <br><br>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="background">
+                    <div class="transbox">
+                      <div class="container">
+                        <h4>Contact Details</h4>
+                        <h6>WEBSITE: www.deltacooltechnology.com</h6>
+                        <h6>CALL US: 021-34543874, 75 & 76</h6>
+    
+                        <div class="d-flex">
+                          <div class=" row" style="padding:10px">
+                            <div class="col-12 col-md-4">
+                              <a href="https://www.linkedin.com/company/70929265/admin" target="blank"><i class="fa fa-linkedin"
+                                style="font-size:2rem;"></i></a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                              <a href="https://instagram.com/deltacoolingtechnology?utm_medium=copy_link" target="blank"><i
+                                class="fab fa-instagram" style="font-size:2rem;"></i></a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                              <a href="https://www.facebook.com/delta.cooling.tech" target="blank"><i
+                                class="fab fa-facebook" style="font-size:2rem;"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <img src="img/Aplication/ice-businuess.webp" alt=""> -->
+    
+                </div>
+                <div class="col-12 col-md-6">
+                  <form action="/action_page.php">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <div class="form-group"><label for="name" style=" color:#fff;">Name:</label>
+                          <input type="Name" class="form-control" placeholder="Enter Name" id="name">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="form-group" style=" color:#fff;">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                      </div>
+    
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <div class="form-group" style=" color:#fff;"><label for="Phone">Phone:</label>
+                          <input type="Phone" class="form-control" placeholder="Enter Phone" id="Phone">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="form-group" style=" color:#fff;">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                      </div>
+    
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-12">
+                        <div class="form-group" style=" color:#fff;"><label for="name">About:</label>
+                          <input type="Name" class="form-control" placeholder="Enter Name" id="name">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group" style=" color:#fff;">
+                      <label for="exampleFormControlTextarea2">Messege..</label>
+                      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                        placeholder="write here..."></textarea>
+                    </div>
+                    <div class="form-group ">
+                      <button type="submit" class="btn btn-primary my-5"
+                        style="text-align: center; width: 100%; border-radius: 50px; position: relative; background-color: #0078ff;">Send</button>
+                    </div>
+    
+                  </form>
+                </div>
+    
+              </div>
+    
+            </div>
+            <br> <br>
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.987671542367!2d67.06549967243328!3d24.864060120594523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9f6423960d%3A0x95c1b29bacc7619!2sBlock-6%20Block%206%20PECHS%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1639783483787!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    
+          </div>
+          <!-- <div class="arr" style="background-color: rgb(0, 30, 68);">
+            <h6 style="text-align: center;color: white; padding: 10px;">Designed By Plug Orange</h6>
+    </div> -->
+    
+    
+          <br>
+        </div>
+        <div class="container-fluid" style="background-color: rgb(212, 212, 212); padding: 5px;">
+    
+          <div class="d-flex justify-content-center">
+            <div class="row">
+              <!-- <div class="col-12 col-md-6">  <p>Privacy</p> </div>
+            <div class="col-12 col-md-6">  <p>Policy</p> </div> -->
+            </div>
+          </div>
+          <p style="text-align: center;">Delta Cool Technology All Rights Reserved. </p>
+        </div>
+      </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+
+
+</body>
+</head>

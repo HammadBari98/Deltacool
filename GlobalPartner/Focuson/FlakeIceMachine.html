@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>FOCUSON - FLAKE ICE MACHINE</title>
+    <meta content="" name="description">
+
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        /* Small capacity slider*/
+
+        .wrapper {
+            width: 100%;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .carousel-s {
+            width: 90%;
+            margin: 0px auto;
+        }
+
+        .slick-slide {
+            margin: 10px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev,
+        .slick-next {
+            background: rgb(13, 56, 97);
+            border-radius: 15px;
+            border-color: transparent;
+        }
+
+        .card {
+            border: 2px solid #fff;
+            box-shadow: 1px 1px 15px #ccc;
+        }
+
+        .card-body {
+            background: #fff;
+            width: 100%;
+            vertical-align: top;
+        }
+
+        .card-content {
+            text-align: left;
+            color: #333;
+            padding: 15px;
+        }
+
+        .card-text {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        /* Small capacity slider end*/
+
+        .container11 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: 4px 16px;
+        }
+
+        #cards-container {
+            overflow: hidden;
+            margin: 20px;
+        }
+
+        .cards {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 99999px;
+        }
+
+        .card {
+            /* Add shadows to create the "card" effect */
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            background: #fff;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            width: 235px;
+            margin: 15px 7.5px;
+        }
+
+        .card:hover {
+            -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .card .img {
+            max-width: 220px;
+            height: 220px;
+            display: inline-block;
+        }
+
+        #slide-left-container,
+        #slide-right-container {
+            display: none;
+        }
+
+        #slide-left-container.active,
+        #slide-right-container.active {
+            display: block;
+            cursor: pointer;
+        }
+
+        .slide-left,
+        .slide-right {
+            border-color: #000;
+            border-style: solid;
+            height: 20px;
+            width: 20px;
+            margin-top: 30%;
+        }
+
+        .slide-left {
+            border-width: 4px 0 0 4px;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            margin-left: 40%;
+        }
+
+        .slide-right {
+            border-width: 4px 4px 0 0;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            margin-left: 22%;
+        }
+
+        @media only screen and (max-width:1280px) {
+            .navbar {
+                margin-left: 0px !important;
+            }
+        }
+
+        .heading {
+            font-size: 60px;
+            line-height: 1.35em;
+            text-align: center;
+            font-family: Poppins;
+            font-weight: 600;
+            color: #003862;
+            overflow: hidden !important;
+        }
+
+        #header {
+            background-color: #fff;
+        }
+
+        .navbar {
+            margin-left: 200px;
+        }
+
+        .carousel-control-prev-icon {
+            margin-left: -200px !important;
+            margin-bottom: 100px !important;
+        }
+
+        .carousel-control-next-icon {
+            margin-left: 200px !important;
+            margin-bottom: 100px !important;
+        }
+
+        .carousel-control-next-icon:after {
+            content: '>';
+            font-size: 40px;
+            color: #000 !important;
+        }
+
+        .carousel-control-prev-icon:after {
+            content: '<';
+            font-size: 40px;
+            color: #000 !important;
+        }
+
+        .ram {
+            display: none;
+        }
+
+        @media only screen and (max-width:800px) {
+            .header .logo img {
+                max-height: 35px !important;
+                max-width: 250px !important;
+            }
+            .navbar {
+                margin-left: 0px !important;
+            }
+            .carousel-control-prev-icon {
+                margin-left: 0px !important;
+            }
+            .ment {
+                display: block !important;
+            }
+            .carousel-control-next-icon {
+                margin-left: 0px !important;
+            }
+            .fest {
+                display: none !important;
+            }
+            .ram {
+                display: block;
+            }
+        }
+
+        .dropbtn {
+            background-color: white;
+            color: blue;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            overflow: auto;
+            background-color: white;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+    <script type="text/javascript">
+        function hover(element) {
+            element.setAttribute('src', '../../img/pop/image 1.2.webp');
+        }
+
+        function unhover(element) {
+            element.setAttribute('src', '../../img/pop/image 1.1.webp');
+        }
+
+
+        function hover2(element) {
+            element.setAttribute('src', '../../img/pop/image 2.2.webp');
+        }
+
+        function unhover2(element) {
+            element.setAttribute('src', '../../img/pop/image 2.1.webp');
+        }
+
+        function hover3(element) {
+            element.setAttribute('src', '../../img/pop/image 3.2.webp');
+        }
+
+        function unhover3(element) {
+            element.setAttribute('src', '../../img/pop/image 3.1.webp');
+        }
+
+        function hover4(element) {
+            element.setAttribute('src', '../../img/pop/image 4.2.webp');
+        }
+
+        function unhover4(element) {
+            element.setAttribute('src', '../../img/pop/image 4.1.webp');
+        }
+
+        function hover5(element) {
+            element.setAttribute('src', '../../img/pop/image 5.2.webp');
+        }
+
+        function unhover5(element) {
+            element.setAttribute('src', '../../img/pop/image 5.1.webp');
+        }
+
+        function hover6(element) {
+            element.setAttribute('src', '../../img/pop/image 6.2.webp');
+        }
+
+        function unhover6(element) {
+            element.setAttribute('src', '../../img/pop/image 6.1.webp');
+        }
+
+        function hover7(element) {
+            element.setAttribute('src', '../../img/pop/image 7.2.webp');
+        }
+
+        function unhover7(element) {
+            element.setAttribute('src', '../../img/pop/image 7.1.webp');
+        }
+
+        function hover8(element) {
+            element.setAttribute('src', '../../img/pop/image 8.2.webp');
+        }
+
+        function unhover8(element) {
+            element.setAttribute('src', '../../img/pop/image 8.1.webp');
+        }
+
+        function hover9(element) {
+            element.setAttribute('src', '../../img/pop/image 9.2.webp');
+        }
+
+        function unhover9(element) {
+            element.setAttribute('src', '../../img/pop/image 9.1.webp');
+        }
+
+        function hover10(element) {
+            element.setAttribute('src', '../../img/pop/image 11.1.webp');
+        }
+
+        function unhover10(element) {
+            element.setAttribute('src', '../../img/pop/image 10.1.webp');
+        }
+
+        function hover11(element) {
+            element.setAttribute('src', '../../img/pop/image 10.1.webp');
+        }
+
+        function unhover11(element) {
+            element.setAttribute('src', '../../img/pop/image 11.1.webp');
+        }
+
+        function hover12(element) {
+            element.setAttribute('src', '../../img/pop/image 12.2.webp');
+        }
+
+        function unhover12(element) {
+            element.setAttribute('src', '../../img/pop/image 12.1.webp');
+        }
+    </script>
+
+
+    <body>
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="header fixed-top">
+            <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+                <a href="index.html" class="logo d-flex align-items-center">
+                <img src="../../img/partner logo/FOCUSUN.jpg" width="300px" alt="">
+                <!-- <span>TAMUTOM</span> -->
+            </a>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto active" href="FlakeIceMachine.html#home">HOME</a></li>
+                        <li><a class="nav-link scrollto" href="FlakeIceMachine.html#overview">OVERVIEW &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">MACHINE TYPES</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <li><a class="nav-link scrollto" href="FlakeIceMachine.html#small">SMALL CAPACITY</a></li>
+                                <li><a class="nav-link scrollto" href="FlakeIceMachine.html#medium">MEDIUM CAPACITY</a></li>
+                                <li><a class="nav-link scrollto" href="FlakeIceMachine.html#large">LARGE CAPACITY</a></li>
+                                <li><a class="nav-link scrollto" href="FlakeIceMachine.html#CONTAINERIZED">CONTAINERIZED</a></li>
+                                <li><a class="nav-link scrollto" href="FlakeIceMachine.html#seawater">SEAWATER</a></li>
+                            </div>
+                        </div>
+                        <li><a class="nav-link scrollto" href="FlakeIceMachine.html#contact">CONTACT</a></li>
+
+                    </ul>
+                    <button class="btn btn-light ram" style="background-color: #0d3861;" data-toggle="modal" data-target="#exampleModal">
+                    <i class="fa fa-bars" aria-hidden="true" style="color:#fff;"></i>
+                </button>
+
+                </nav>
+                <!-- .navbar -->
+            </div>
+        </header>
+        <!-- End Header -->
+        <br>
+        <br>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden=" true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" style="background-color: #0d3861;">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="exampleModalLabel">na</h5> -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><a class="nav-link scrollto active" href="FlakeIceMachine.html#home">HOME</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#overview">OVERVIEW</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#small">SMALL CAPACITY</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#medium">MEDIUM CAPACITY</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#large">LARGE CAPACITY</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#CONTAINERIZED">CONTAINERIZED</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#seawater">SEAWATER</a></li>
+                            <li><a class="nav-link scrollto" href="FlakeIceMachine.html#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid ment" style="display: none;">
+            <video autoplay muted loop playsinline preload="metadata" style="height: 100%; width: 100%;">
+            <source src="assets/img/new intro.mp4" type="video/mp4">
+        </video>
+            <p style="font-size: 50px;       
+         line-height: 1.35em;
+         text-align: center;
+         font-family: Poppins;
+         font-weight: 600;
+         color: #003862;">
+                FOCUSON Ice Machine
+            </p>
+            <span style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+                    text-align: center;
+                    font-family: Poppins; ">How our machines&nbsp;</span>
+            <dpan style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+                    text-align: center;
+                    font-family: Poppins; ">
+                produce perfect FOCUSON ice?
+            </dpan>
+
+
+        </div>
+
+        <section class="container fest" style="height:600px;" id="home">
+            <div class="row">
+                <div class="video-wrapper">
+
+                    <div class="col-md-7 col-sm-12">
+                        <video autoplay muted loop playsinline preload="metadata" style="height: 600px;">
+                        <source src="assets/img/new intro.mp4" type="video/mp4">
+                    </video>
+
+                    </div>
+                    <div class="col-md-5 col-sm-12 text-center">
+
+                        <p class="heading">
+                            FOCUSON FLAKE ICE MACHINE
+                        </p>
+                        <span style="font-size:35px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+                    text-align: center;
+                    font-family: Poppins; ">How our machines&nbsp;</span>
+                        <dpan style="font-size:45px; color:#003862;   font-weight: 600;    line-height: 1.35em;
+                    text-align: center;
+                    font-family: Poppins; ">
+                            produce perfect FOCUSON ice?
+                        </dpan>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <br>
+        <br>
+        <div class="container text-center" id="overview">
+            <h1>
+                OVERVIEW
+            </h1>
+        </div>
+        <div class="container " style="background-color: rgb(13, 56, 97); color: white; padding: 2%; border-radius:20px; box-shadow: 0px 0px 5px 0px blue;">
+            <p style="text-align: justify;">
+                Focusun™ Flake Ice Makers adopt the world's most advanced Flake Ice making technology and we are proud to be one of the global leading manufacturers of this innovative cooling solution. We have a wide range of Flake Ice solutions: you can choose either
+                from a Small, Medium, Large and Seawater or Containerized Flake Ice type of cooling, depending on your requirements. All large capacity Flake Ice plants can be containerized to allow a mobile ice manufacturing process, better space planning
+                or convenient relocation. We save you from the trouble of assembling and disassembling.
+
+
+                <br><br> Choose from 0.5 to 3 tons Flake Ice production every 24 hours with the small capacity machines, 5 Tons to 20 tons/24hrs and 25 tons to 60 tons/24hrs of Flake Ice production for the large capacity plants. For the Seawater Flake
+                Ice Makers, we offer 0.8 tons to 6 tons/24hrs of Flake Ice production. Our Flake Ice has a typical dimension of irregular size of 40mm x 40mm, with thickness of about 1.5 to 2.5mm. But you can customize the production capacity of your
+                Flake Ice Plant to fit your requirements. Here at Focusun, we set no limit to our competence. We believe the sky is the limit! Contact us now and find out more. Focusun, the global leader in ice cooling solutions!
+
+                <br><br> Focusun Refrigeration Corporation is spearheading the Refrigeration Industry with innovative and critically researched technology in Ice Cooling Solutions. Besides the Flake Ice Machine, designed and manufactured with precision
+                in the arts of science, innovation and technology, we have also mastered our trades in manufacturing Tube Ice Machine, Block Ice Plants, Plate Ice Maker, Cube Ice Machine, Water Cooling equipment, Concrete Cooling System, Dynamic Ice Storage
+                System, and many other low temperature Ice Storage Rooms.
+                <br> <br> Having experienced years of diligent and unremitting efforts, our innovative products have gradually become the industrial standards chased by our counterparts. Meanwhile, it is the numerous patents and breakthrough innovations
+                that lay a solid foundation for the authoritative position on Focusun's professional ice-making technology.
+                <br><br> Through the past 80 years, Focusun has kept paying close attention to market demand and persist in improving the quality of the Ice-Making Plants and other related products. Focusun Flake Ice Plants produce irregular Ice Flake
+                at the size of about 40×40mm and thickness around 1.5-2.5mm. Due to its characteristics, Flake Ice is widely used in food preservation in supermarket, meat & food processing industry and aquatic products processing industry etc.
+                <br><br> Focusun Flake Ice Makers are divided into 5 major categories, including small capacity Flake Ice Machine (daily production ranging from 500 kg – 3,000kg), medium capacity Flake Ice Machine (daily production ranging from 5,000
+                kg - 20,000 kg), large capacity Flake Ice Machine (daily production ranging from 25,000kg - 60,000kg), containerized Flake Ice Making Plants (two models: 20-foot standard container and 40-foot standard container) and also seawater Flake
+                Ice Machine suitable for both land use and marine use.
+                <br><br>
+            </p>
+        </div>
+
+        <br><br>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-center  py-5" style="background-color: #003862;">
+                    <span style="color: #fff; font-size: 47px; font-family: Poppins;  font-weight: 600;">What type of<br>
+                    FOCUSON ice machine do you<br> need?</span>
+
+
+                </div>
+                <div class="col-md-6 col-sm-6 text-center  py-5">
+                    <span style="color: #000; font-size: 36px; font-family: Poppins;  font-weight: 600;">The answer to this
+                    question is<br> very simple.<br>
+
+                    Will you produce FOCUSON ice<br> with clean water?<br>
+
+                    Or with seawater?</span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <div class="container text-center" id="small">
+            <h1>
+                SMALL CAPACITY
+            </h1>
+        </div>
+        <div class="wrapper">
+            <div class="carousel" style="width:90%;margin:0px auto;">
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/0.5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">0.5 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/0.8.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">0.8 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/1.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">1 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/1.2.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">1.2 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/1.5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">1.5 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/2.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">2 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/2.5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">2.5 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Small/3.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">3 Ton Small Capacity Flake Ice Maker</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <br>
+        <br>
+        <div class="container text-center" id="medium">
+            <h1>
+                MEDIUM CAPACITY
+            </h1>
+        </div>
+        <div class="wrapper">
+            <div class="carousel" style="width:90%;margin:0px auto;">
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">5 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/8.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">8 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/10.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">10 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/10.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">10 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/12.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">12 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/15.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">15 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Medium/20.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">20 Tons Medium Capacity Flake Ice Plant</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="container text-center" id="large">
+            <h1>
+                LARGE CAPACITY
+            </h1>
+        </div>
+        <div class="wrapper">
+            <div class="carousel" style="width:90%;margin:0px auto;">
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Large/25.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">25 Tons Large Capacity Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Large/30.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">30 Tons Large Capacity Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Large/35.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">35 Tons Large Capacity Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Large/40.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">40 Tons Large Capacity Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Large/50.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">50 Tons Large Capacity Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Large/60.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">60 Tons Large Capacity Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="container text-center" id="CONTAINERIZED">
+            <h1>
+                CONTAINERIZED
+            </h1>
+        </div>
+        <div class="wrapper">
+            <div class="carousel" style="width:90%;margin:0px auto;">
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">5 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/10.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">10 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/12.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">12 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/15.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">15 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/20.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">20 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/25.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">25 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/30.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">30 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/40.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">40 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/50.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">50 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Containerized/60.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">60 Tons Containerized Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="container text-center" id="seawater">
+            <h1>
+                SEAWATER
+            </h1>
+        </div>
+        <div class="wrapper">
+            <div class="carousel" style="width:90%;margin:0px auto;">
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/0.5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">0.5 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/0.8.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">0.8 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/1.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">1 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/2.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">2 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/3.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">3 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/4.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">4 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/5.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">5 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/6.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">6 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/8.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">8 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/10.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">10 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/15.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">15 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img/FlakeIceMachine/Seawater/20.jpg">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-text">20 Ton Seawater Flake Ice Machine</div>
+                                <div class="card-text">
+                                    <p>$00.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <footer>
+            <div class="footer" style="background-color: rgb(13, 56, 97);" id="contact">
+                <div class="container">
+                    <br>
+                    <h1 style="text-align: center;">
+                        CONTACT WITH US</h1>
+
+                    <br><br>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="background">
+                                    <div class="transbox">
+                                        <div class="container">
+                                            <h4>Contact Details</h4>
+                                            <h6>WEBSITE: www.deltacooltechnology.com</h6>
+                                            <h6>CALL US: 021-34543874, 75 & 76</h6>
+
+                                            <div class="d-flex">
+                                                <div class=" row" style="padding:10px">
+                                                    <div class="col-12 col-md-4">
+                                                        <a href="https://www.linkedin.com/company/70929265/admin" target="blank"><i class="fa fa-linkedin"
+                                                        style="font-size:2rem;"></i></a>
+                                                    </div>
+                                                    <div class="col-12 col-md-4">
+                                                        <a href="https://instagram.com/deltacoolingtechnology?utm_medium=copy_link" target="blank"><i
+                                                        class="fab fa-instagram" style="font-size:2rem;"></i></a>
+                                                    </div>
+                                                    <div class="col-12 col-md-4">
+                                                        <a href="https://www.facebook.com/delta.cooling.tech" target="blank"><i
+                                                        class="fab fa-facebook" style="font-size:2rem;"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img src="img/Aplication/ice-businuess.webp" alt=""> -->
+
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <form action="/action_page.php">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group"><label for="name" style=" color:#fff;">Name:</label>
+                                                <input type="Name" class="form-control" placeholder="Enter Name" id="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group" style=" color:#fff;">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group" style=" color:#fff;"><label for="Phone">Phone:</label>
+                                                <input type="Phone" class="form-control" placeholder="Enter Phone" id="Phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group" style=" color:#fff;">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-12">
+                                            <div class="form-group" style=" color:#fff;"><label for="name">About:</label>
+                                                <input type="Name" class="form-control" placeholder="Enter Name" id="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" style=" color:#fff;">
+                                        <label for="exampleFormControlTextarea2">Messege..</label>
+                                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="write here..."></textarea>
+                                    </div>
+                                    <div class="form-group ">
+                                        <button type="submit" class="btn btn-primary my-5" style="text-align: center; width: 100%; border-radius: 50px; position: relative;">Send</button>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <br> <br>
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.987671542367!2d67.06549967243328!3d24.864060120594523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9f6423960d%3A0x95c1b29bacc7619!2sBlock-6%20Block%206%20PECHS%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1639783483787!5m2!1sen!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                </div>
+                <!-- <div class="arr" style="background-color: rgb(0, 30, 68);">
+            <h6 style="text-align: center;color: white; padding: 10px;">Designed By Plug Orange</h6>
+    </div> -->
+
+
+                <br>
+            </div>
+            <div class="container-fluid" style="background-color: rgb(212, 212, 212); padding: 5px;">
+
+                <div class="d-flex justify-content-center">
+                    <div class="row">
+                        <!-- <div class="col-12 col-md-6">  <p>Privacy</p> </div>
+            <div class="col-12 col-md-6">  <p>Policy</p> </div> -->
+                    </div>
+                </div>
+                <p style="text-align: center;">Delta Cool Technology All Rights Reserved. </p>
+            </div>
+        </footer>
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/purecounter/purecounter.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
+
+    <script>
+        /**
+         * @description Change Home page slider's arrows active status
+         */
+        function updateSliderArrowsStatus(
+            cardsContainer,
+            containerWidth,
+            cardCount,
+            cardWidth
+        ) {
+            if (
+                $(cardsContainer).scrollLeft() + containerWidth <
+                cardCount * cardWidth + 15
+            ) {
+                $("#slide-right-container").addClass("active");
+            } else {
+                $("#slide-right-container").removeClass("active");
+            }
+            if ($(cardsContainer).scrollLeft() > 0) {
+                $("#slide-left-container").addClass("active");
+            } else {
+                $("#slide-left-container").removeClass("active");
+            }
+        }
+        $(function() {
+            // Scroll products' slider left/right
+            let div = $("#cards-container");
+            let cardCount = $(div)
+                .find(".cards")
+                .children(".card").length;
+            let speed = 1000;
+            let containerWidth = $(".container").width();
+            let cardWidth = 250;
+
+            updateSliderArrowsStatus(div, containerWidth, cardCount, cardWidth);
+
+            //Remove scrollbars
+            $("#slide-right-container").click(function(e) {
+                if ($(div).scrollLeft() + containerWidth < cardCount * cardWidth) {
+                    $(div).animate({
+                        scrollLeft: $(div).scrollLeft() + cardWidth
+                    }, {
+                        duration: speed,
+                        complete: function() {
+                            setTimeout(
+                                updateSliderArrowsStatus(
+                                    div,
+                                    containerWidth,
+                                    cardCount,
+                                    cardWidth
+                                ),
+                                1005
+                            );
+                        }
+                    });
+                }
+                updateSliderArrowsStatus(div, containerWidth, cardCount, cardWidth);
+            });
+            $("#slide-left-container").click(function(e) {
+                if ($(div).scrollLeft() + containerWidth > containerWidth) {
+                    $(div).animate({
+                        scrollLeft: "-=" + cardWidth
+                    }, {
+                        duration: speed,
+                        complete: function() {
+                            setTimeout(
+                                updateSliderArrowsStatus(
+                                    div,
+                                    containerWidth,
+                                    cardCount,
+                                    cardWidth
+                                ),
+                                1005
+                            );
+                        }
+                    });
+                }
+                updateSliderArrowsStatus(div, containerWidth, cardCount, cardWidth);
+            });
+
+            // If resize action ocurred then update the container width value
+            $(window).resize(function() {
+                try {
+                    containerWidth = $("#cards-container").width();
+                    updateSliderArrowsStatus(div, containerWidth, cardCount, cardWidth);
+                } catch (error) {
+                    console.log(
+                        `Error occured while trying to get updated slider container width: 
+            ${error}`
+                    );
+                }
+            });
+        });
+        $(document).ready(function() {
+            $('.carousel').slick({
+                speed: 500,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                centerMode: true,
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        // centerMode: true,
+
+                    }
+
+                }, {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        dots: true,
+                        infinite: true,
+
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                    }
+                }]
+            });
+        });
+    </script>
+    <script>
+        /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    </body>
+</head>
